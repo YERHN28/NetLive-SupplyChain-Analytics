@@ -64,15 +64,15 @@ This project simulates a real-world supply chain environment to analyze and impr
 
 ### Executive Overview
 
-![Executive Overview](images/executive-overview.png)
+![Executive Overview](executive-overview.png)
 
 ### Inventory Analysis
 
-![Inventory Analysis](images/inventory-analysis.png)
+![Inventory Analysis](inventory-analysis.png)
 
 ### Product Detail
 
-![Product Detail](images/product-detail.png)
+![Product Detail](product-detail.png)
 
 ---
 
