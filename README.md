@@ -28,24 +28,37 @@ This is a complete end-to-end analytics project:
 2. **Data Transformation (Power Query)**
 
    * Cleaned and structured raw data
-   * Standardized fields and formats
-   * Prepared data model for analysis
+   * Standardized formats and handled inconsistencies
+   * Prepared the dataset for analysis
 
 3. **Data Modeling (Power BI)**
 
-   * Created relationships between fact and dimension tables
-   * Built a star schema model
+   * Established relationships between fact and dimension tables
+   * Implemented a star schema model
 
 4. **Business Logic (DAX)**
 
    * Inventory classification: *Stockout, Risk, Healthy*
-   * Product rotation metrics
+   * Product rotation calculation
    * Average supplier lead time
    * Inventory KPIs and performance indicators
 
 5. **Data Visualization (Power BI Dashboard)**
 
-   * Interactive dashboards for analysis and decision-making
+   * Built interactive dashboards for analysis and decision-making
+
+---
+
+## 📊 Dataset Details
+
+The dataset was simulated to replicate real-world supply chain operations, including:
+
+* Inventory movements (inbound and outbound)
+* Supplier lead times
+* Product categories and stock levels
+* Logistics costs
+
+This approach enables controlled analysis of scenarios such as stockouts, demand variability, and supplier performance.
 
 ---
 
@@ -137,6 +150,12 @@ NetLive-SupplyChain-Analytics/
 ├── inventory-analysis.png  
 ├── product-detail.png  
 ```
+
+---
+
+## 📈 Conclusion
+
+This project demonstrates how data analytics can be applied to monitor inventory performance, detect risks such as stockouts, and support supply chain decision-making through interactive dashboards.
 
 ---
 
