@@ -64,15 +64,15 @@ This project simulates a real-world supply chain environment to analyze and impr
 
 ### Executive Overview
 
-![Executive Overview](images/Executive Overview.png)
+![Executive Overview](images/executive-overview.png)
 
 ### Inventory Analysis
 
-![Inventory Analysis](images/Inventory Analysis.png)
+![Inventory Analysis](images/inventory-analysis.png)
 
 ### Product Detail
 
-![Product Detail](images/Product Detail.png)
+![Product Detail](images/product-detail.png)
 
 ---
 
@@ -104,9 +104,9 @@ NetLive-SupplyChain-Analytics/
 ├── NetLive.pbix
 ├── README.md
 └── images/
-├── Executive Overview.png
-├── Inventory Analysis.png
-├── Product Detail.png
+├── executive-overview.png
+├── inventory-analysis.png
+├── product-detail.png
 
 ---
 
