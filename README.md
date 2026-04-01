@@ -4,24 +4,48 @@
 
 This project analyzes inventory performance, product movement, and supplier efficiency using Power BI.
 
-The objective is to identify stock imbalances, supply chain inefficiencies, and operational risks through data-driven insights.
+It simulates a real-world supply chain environment to identify stock imbalances, supplier inefficiencies, and operational risks through data-driven insights.
 
 ---
 
 ## 🎯 Business Problem
 
-Companies often struggle with stock shortages, overstock, and inefficient supplier performance.
-This project simulates a real-world supply chain environment to analyze and improve inventory management.
+Companies often face challenges such as stock shortages, overstock, and inefficient supplier performance.
+
+This project replicates these challenges to analyze inventory behavior and support better decision-making.
 
 ---
 
-## 🔄 End-to-End Process
+## 🔄 End-to-End Data Workflow
 
-1. Data generation using SQL (simulated supply chain dataset)
-2. Data modeling and transformation
-3. Analytical modeling using DAX
-4. Interactive dashboard development in Power BI
-5. Business insights for decision-making
+This is a complete end-to-end analytics project:
+
+1. **Data Generation (SQL)**
+
+   * Designed and created a simulated dataset representing supply chain operations
+   * Built tables for products, suppliers, inventory movements, and warehouses
+
+2. **Data Transformation (Power Query)**
+
+   * Cleaned and structured raw data
+   * Standardized fields and formats
+   * Prepared data model for analysis
+
+3. **Data Modeling (Power BI)**
+
+   * Created relationships between fact and dimension tables
+   * Built a star schema model
+
+4. **Business Logic (DAX)**
+
+   * Inventory classification: *Stockout, Risk, Healthy*
+   * Product rotation metrics
+   * Average supplier lead time
+   * Inventory KPIs and performance indicators
+
+5. **Data Visualization (Power BI Dashboard)**
+
+   * Interactive dashboards for analysis and decision-making
 
 ---
 
@@ -62,15 +86,19 @@ This project simulates a real-world supply chain environment to analyze and impr
 
 ## 📊 Dashboard Preview
 
-### Executive Overview
+### 🟣 Executive Overview
 
 ![Executive Overview](executive-overview.png)
 
-### Inventory Analysis
+---
+
+### 🔵 Inventory Analysis
 
 ![Inventory Analysis](inventory-analysis.png)
 
-### Product Detail
+---
+
+### 🟢 Product Detail
 
 ![Product Detail](product-detail.png)
 
@@ -78,9 +106,10 @@ This project simulates a real-world supply chain environment to analyze and impr
 
 ## 🛠 Tools & Technologies
 
-* Power BI
-* DAX
 * SQL
+* Power BI
+* Power Query
+* DAX
 
 ---
 
@@ -101,13 +130,15 @@ This dashboard helps to:
 ```
 NetLive-SupplyChain-Analytics/
 │
-├── dataset.sql
-├── NetLive.pbix
-├── README.md
-├── executive-overview.png
-├── inventory-analysis.png
-├── product-detail.png
+├── dataset.sql  
+├── NetLive.pbix  
+├── README.md  
+├── executive-overview.png  
+├── inventory-analysis.png  
+├── product-detail.png  
 ```
+
+---
 
 ## 📌 Author
 
