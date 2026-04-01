@@ -98,17 +98,16 @@ This dashboard helps to:
 
 ## 📂 Project Structure
 
+```
 NetLive-SupplyChain-Analytics/
 │
 ├── dataset.sql
 ├── NetLive.pbix
 ├── README.md
-└── images/
 ├── executive-overview.png
 ├── inventory-analysis.png
 ├── product-detail.png
-
----
+```
 
 ## 📌 Author
 
